@@ -60,9 +60,32 @@ body {
     font-size: 15px;
 }
 
+.option{
+    display:flex;
+    width:calc(80%+13px);
+    height:20px;
+    margin-top:5px;
+    padding:0;
+    justify-content: space-between;
+
+}
+
 form{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#loginStable{
+    width:15px;
+    height:15px;
+    border-radius: 50px;
+    border-color:2px solid lightgray;
+}
+
+.stableContainer{
+    display:flex;
+    align-items: center;
+    margin:5px 0;
 }
